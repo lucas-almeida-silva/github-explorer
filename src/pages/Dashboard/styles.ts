@@ -54,6 +54,19 @@ export const Form = styled.form<FormProps>`
       background: ${shade(0.2, '#04d361')};
     }
   }
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+
+    input {
+      flex: initial;
+    }
+
+    button {
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
 `;
 
 export const Error = styled.span`

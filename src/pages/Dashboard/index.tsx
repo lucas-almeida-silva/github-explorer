@@ -9,11 +9,11 @@ import { Title, Form, Repositories, Error } from './styles';
 
 interface Repository {
   full_name: string;
+  description: string;
   owner: {
     login: string;
     avatar_url: string;
   };
-  description: string;
 }
 
 const Dashboard: React.FC = () => {
