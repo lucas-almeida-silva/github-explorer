@@ -24,7 +24,7 @@ These searched repositories are stored in the browser's local storage.
 # :computer: Technologies
 
 - [ReactJS](https://pt-br.reactjs.org/)
-- [Typescript](https://www.typescriptlang.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 # :page_with_curl: Requirements
 
