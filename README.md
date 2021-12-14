@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+<p align="center">
+   <img src=".github/logo.jpg" alt="Github Explorer" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# :page_with_curl: Table of Contents
 
-## Available Scripts
+* [About](#information_source-about)
+* [Technologies](#computer-technologies)
+* [Requirements](#page_with_curl-requirements)
+* [Features](#rocket-features)
+* [Images](#camera-images)
+* [How to run](#seedling-how-to-run)
+* [License](#pencil-license)
 
-In the project directory, you can run:
+# :information_source: About
 
-### `yarn start`
+GitHub Explorer is a web application to search GitHub repositories based on author and repository name. The repository data is taken from the API provided by GitHub.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+From the repository details, you can see the number of stars, forks and open issues, in addition to the list of issues. By clicking on an issue, the user is redirected 
+to the issue's page on GitHub.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+These searched repositories are stored in the browser's local storage. 
 
-### `yarn test`
+# :computer: Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ReactJS](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
 
-### `yarn build`
+# :page_with_curl: Requirements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/) (optional)
+- [Git](https://git-scm.com/) (to clone the repository)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# :rocket: Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Search repositories
+- View repository details (stars, forks and issues)
 
-### `yarn eject`
+# :camera: Images
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ <img src=".github/explore-repos-page.jpg" alt="Explore repositories" />
+ <img src=".github/repo-details.jpg" alt="Repository details" height="550" style="margin-top: 10px" />
+ 
+# :seedling: How to run
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Clone the repository
+$ git clone https://github.com/lucas-almeida-silva/github-explorer.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Go to the project folder
+$ cd github-explorer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Install Dependencies
+$ yarn
+# or npm install
 
-## Learn More
+# Run the application
+$ yarn start
+# or npm start
+```
+Access the application at http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# :pencil: License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is under the [MIT license](LICENSE).
